@@ -7,7 +7,7 @@ import os
 
 REDDIT_USERNAME = 'REDDITNAME'  # YOUR USERNAME as string
 REDDIT_PASS = 'REDDITPASSWORD'  # YOUR PASSWORD as string
-disable_warning=True
+
 
 
 if not os.path.isfile("posts_saved.txt"):
