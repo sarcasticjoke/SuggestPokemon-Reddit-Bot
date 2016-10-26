@@ -25,7 +25,7 @@ else:
 while True:
     r = praw.Reddit('Pokereply 0.1')
     r.login(REDDIT_USERNAME, REDDIT_PASS)
-    subreddit = r.get_subreddit('345gbvwe5')
+    subreddit = r.get_subreddit('SUBREDDIT NAME')
     subreddit_comments = subreddit.get_comments()
     for comment in subreddit_comments:
         if comment.body == "!SuggestPokemon" and comment.id not in posts_saved:
