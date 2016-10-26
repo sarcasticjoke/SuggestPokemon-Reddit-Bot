@@ -13,9 +13,8 @@ disable_warning=True
 if not os.path.isfile("posts_saved.txt"):
     posts_saved = []
 
-# If we have run the code before, load the list of posts we have replied to
 else:
-    # Read the file into a list and remove any empty values
+    
     with open("posts_saved.txt", "r") as f:
         posts_saved = f.read()
         posts_saved = posts_saved.split("\n")
