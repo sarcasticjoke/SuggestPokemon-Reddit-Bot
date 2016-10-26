@@ -5,8 +5,8 @@ from pokemon_lists import *
 import os
 
 
-REDDIT_USERNAME = 'SagaTracker'  # YOUR USERNAME as string
-REDDIT_PASS = 'mudkip123'  # YOUR PASSWORD as string
+REDDIT_USERNAME = 'REDDITNAME'  # YOUR USERNAME as string
+REDDIT_PASS = 'REDDITPASSWORD'  # YOUR PASSWORD as string
 disable_warning=True
 
 
